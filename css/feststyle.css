@@ -4,9 +4,10 @@
 body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 600px;
   background-color: #660000;
 }
+
 div {
   height: 200px;
   background-size: cover;
@@ -21,21 +22,22 @@ header {
       color: white;
     }
 h1 {
+  font-family: 'Kaushan Script', cursive;
   text-align: center;
-  font-size: 75px;
+  font-size: 60px;
   margin: 60px 0 0 0;
-  color: #aaaaaa;
+  color:#bbbbbb;
 }
 h2 {
-  font-family:'Dancing Script', cursive;
+  font-family: 'Kaushan Script', cursive;
   text-align: center;
   margin: 0px 0 70px 0;
   color:#bbbbbb;
-  font-size: 90px;
+  font-size: 80px;
 }
 ul {
-      padding: 10px;
       background: rgba(0,0,0,0.5);
+      padding: 10px;
     }
 li {
       display: inline;
@@ -56,9 +58,13 @@ p {
   bottom: 0;
   margin: 0;
 }
+input {
+      border: 0;
+      padding:10px;
+      font-size: 10px;
+    }
 .third {
   background-image: url(../festimages/camden.jpg.jpg);
-
 }
 .second {
   background-image: url(../festimages/oxford_street.jpg);
@@ -69,24 +75,23 @@ p {
 .place {
   float: right;
 }
-@media (max-width: 500px) {
-  h1 {
-    font-size: 50px;
-    margin-top: 20px;
-    line-height: 40px;
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
 }
-h2 {
-  font-size: 20px;
-  margin: 20px 0 30px 0;
+button:hover {
+  opacity:1;
 }
-div {
-  margin: 20px 12px 0 12px;
+.signupbtn {
+  float: right;
 }
-p {
-  font-size: 20px;
-  line-height: 24px;
-}
-.small{
-  font-size: 16px;
-}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
