@@ -1,0 +1,92 @@
+.small {
+  opacity: 0;
+}
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: #660000;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 130px 0 0 0;
+  border-radius: 30px;
+}
+header {
+      text-align: center;
+      background-color: #660000;
+      background-size: cover;
+      color: white;
+    }
+h1 {
+  text-align: center;
+  font-size: 75px;
+  margin: 60px 0 0 0;
+  color: #aaaaaa;
+}
+h2 {
+  font-family:'Dancing Script',cursive;
+  text-align: center;
+  margin: 0px 0 70px 0;
+  color:#bbbbbb;
+  font-size: 90px;
+}
+ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+  a {
+      color: white;
+}
+p {
+  color: rgba(255,255,255,1);
+  background-color: #000;
+  background: linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background:-moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  bottom: 0;
+  margin: 0;
+}
+.third {
+  background-image: url(../festimages/camden.jpg.jpg);
+
+}
+.second {
+  background-image: url(../festimages/oxford_street.jpg);
+}
+.first {
+  background-image: url(../festimages/shoreditch.jpg);
+}
+.place {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+}
+h2 {
+  font-size: 20px;
+  margin: 20px 0 30px 0;
+}
+div {
+  margin: 20px 12px 0 12px;
+}
+p {
+  font-size: 20px;
+  line-height: 24px;
+}
+.small{
+  font-size: 16px;
+}
+}
